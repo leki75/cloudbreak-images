@@ -1,0 +1,37 @@
+{
+  "images": {
+    "base-images": [
+      {
+        "date": "2017-10-13",
+        "description": "Cloudbreak official base image",
+        "images": {
+          "aws": null,
+          "azure": null,
+          "gcp": null,
+          "openstack": {
+            "default": "cb-centos7-1712211515"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "e06ecf62-edb4-4ac3-b41b-fbff7227da57"
+      }
+    ],
+    "hdf-images": [],
+    "hdp-images": []
+  },
+  "versions": {
+    "cloudbreak": [
+      {
+        "images": [
+          "e06ecf62-edb4-4ac3-b41b-fbff7227da57"
+        ],
+        "versions": [
+          "2.2.0-dev.1",
+          "2.2.0-dev.103",
+          "2.2.0-dev.146"
+        ]
+      }
+    ]
+  }
+}

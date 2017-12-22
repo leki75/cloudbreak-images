@@ -12,5 +12,4 @@ build.sh
 .idea/
 *.iml
 *.pem
-.*
 packer_no_pp.json
